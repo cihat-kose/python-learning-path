@@ -90,7 +90,7 @@ print(f"{fahrenheit} Fahrenheit = {celsius} Celsius.")
 # La brukeren gi inn et antall minutter og konverter dette til timer og minutter.
 # Konsept: input(), Aritmetikk, print(), Int
 
-minutter = (int)(input("Skriv antall minutter: "))
+minutter = int(input("Skriv antall minutter: "))
 
 timer = minutter // 60
 rester = minutter % 60
