@@ -1,4 +1,38 @@
+# Ignore IDE settings
 .idea/
 *.iml
+.vscode/
+
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
+*.py[cod]
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+
+# Jupyter notebooks
+*.ipynb
+.ipynb_checkpoints/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Testing and coverage
+.pytest_cache/
+.mypy_cache/
+.coverage
+coverage/
+htmlcov/
+
+# Environment files
+*.env
+.env/
+.python-version
+
+# OS files
+.DS_Store

@@ -1,3 +1,5 @@
+# This file is part of the Python learning path in Gokstad Akademiet's two-year Backend Programming program.
+# Exercises focus on core Python concepts and intentionally exclude SQL or database content.
 # %%
 # Ny rekkefølge 1 (Oppgave 13)
 # Spør brukeren om deres favorittfarge og skriv ut en melding som sier "Din favorittfarge er FARGE".
