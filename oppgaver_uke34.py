@@ -21,9 +21,9 @@ print(f"Hei {navn}, hyggelig å møte deg!")
 # Türkçe: Kullanıcıdan bir metin iste ve metindeki beşinci harfi yazdır.
 # Konsept: input(), print(), String, Indexing
 
-tekst = input("Skriv en tekst: ")
-if len(tekst) >= 5:
-    print("Den femte bokstaven er:", tekst[4])
+ordet = input("Skriv en tekst: ")
+if len(ordet) >= 5:
+    print("Den femte bokstaven er:", ordet[4])
 else:
     print("Teksten er for kort, du bør legge inn et ord med minst fem bokstaver.")
 
@@ -32,16 +32,16 @@ else:
 # Be brukeren om et ord og skriv ut ordet med store bokstaver.
 # Konsept: input(), print(), String, Manipulation
 
-tekst = input("Skriv en tekst: ")
-print(tekst.upper())
+ordet = input("Skriv en tekst: ")
+print(ordet.upper())
 
 # %%
 # Ny rekkefølge 5 (Oppgave 6)
 # Be brukeren om en tekst og tell antall tegn i teksten. Skriv ut resultatet.
 # Konsept: input(), String, print(), len-funksjon
 
-tekst = input("Skriv en tekst: ")
-print(f"Teksten som legges inn har {len(tekst)} tegn")
+ordet = input("Skriv en tekst: ")
+print(f"Teksten som legges inn har {len(ordet)} tegn")
 
 # %%
 # Ny rekkefølge 6 (Oppgave 2)
@@ -85,8 +85,7 @@ print(f"{fahrenheit} Fahrenheit = {celsius} Celsius.")
 
 # %%
 # Ny rekkefølge 10 (Oppgave 5)
-# Norsk: La brukeren gi inn et antall minutter og konverter dette til timer og minutter.
-# Türkçe: Kullanıcıdan dakika sayısı al ve bunu saat ve dakikaya çevir.
+# La brukeren gi inn et antall minutter og konverter dette til timer og minutter.
 # Konsept: input(), Aritmetikk, print(), Int
 
 minutter = (int)(input("Skriv antall minutter: "))
@@ -98,33 +97,59 @@ print(f"{minutter} minutter er = {timer} time(r) og {rester} minutt(er).")
 
 # %%
 # Ny rekkefølge 11 (Oppgave 16)
-# Norsk: Spør brukeren om sin høyde i cm og konverter den til fot (1 fot = 30.48 cm).
-# Türkçe: Kullanıcıdan boyunu cm cinsinden iste ve foot’a çevir (1 foot = 30.48 cm).
+# Spør brukeren om sin høyde i cm og konverter den til fot (1 fot = 30.48 cm).
 # Konsept: input(), Aritmetikk, print(), Float
+
+høyden = float(input("Skriv høyden din i cm:"))
+fot = høyden / 30.48
+
+print(f"Høyden din er {fot:.2f} fot.")
 
 # %%
 # Ny rekkefølge 12 (Oppgave 26)
-# Norsk: Be brukeren om deres timepris og antall timer de jobbet denne uken, og beregn deres ukelønn.
-# Türkçe: Kullanıcıdan saatlik ücreti ve haftada çalıştığı saat sayısını iste, haftalık maaşını hesapla.
+# Be brukeren om deres timepris og antall timer de jobbet denne uken, og beregn deres ukelønn.
 # Konsept: input(), Aritmetikk, print(), Float
+
+timepris = float(input("Hva er din timepris? :"))
+jobbtimer = float(input("Hvor mange timer jobber du hver uke? :"))
+ukelønn = timepris * jobbtimer
+
+print(f"Ukelønnen din er = {ukelønn:.2f} kroner.")
 
 # %%
 # Ny rekkefølge 13 (Oppgave 28)
-# Norsk: Be brukeren om en pris på en vare og en rabatt i prosent, beregn den rabatterte prisen.
-# Türkçe: Kullanıcıdan bir ürünün fiyatını ve indirim yüzdesini iste, indirimli fiyatı hesapla.
+# Be brukeren om en pris på en vare og en rabatt i prosent, beregn den rabatterte prisen.
 # Konsept: input(), Aritmetikk, print(), Float
+
+varepris = float(input("Skriv vareprisen: "))
+rabatt = float(input("Skriv rabatten i prosent :"))
+
+rabattert_pris = varepris * (100 - rabatt) / 100
+print(f"Den rabatterte prisen er = {rabattert_pris:.2f} kroner.")
 
 # %%
 # Ny rekkefølge 14 (Oppgave 9)
-# Norsk: Be brukeren om et ord, og skriv ut ordet baklengs.
-# Türkçe: Kullanıcıdan bir kelime iste ve kelimeyi tersten yazdır.
+# Be brukeren om et ord, og skriv ut ordet baklengs.
 # Konsept: input(), String, print(), Slicing
+
+ordet = input("Skriv et ord: ")
+baklengs_tekst = ordet[::-1]
+
+print(f"Ordet baklengs er: {baklengs_tekst}")
 
 # %%
 # Ny rekkefølge 15 (Oppgave 29)
-# Norsk: Spør brukeren om et ord og skriv ut det tredje og det nest siste tegnet i ordet.
-# Türkçe: Kullanıcıdan bir kelime iste ve kelimenin üçüncü ve sondan ikinci harfini yazdır.
+# Spør brukeren om et ord og skriv ut det tredje og det nest siste tegnet i ordet.
 # Konsept: input(), print(), String, Indexing
+
+ordet = input("Skriv et ord: ")
+
+if len(ordet) >= 3:
+    tredje_tegn = ordet[2]
+    nest_siste_tegn = ordet[-2]
+    print(f"Det tredje tegnet er {tredje_tegn} og det nest siste tegnet er {nest_siste_tegn}")
+else:
+    print("Ordet er for kort til å finne tredje og nest siste tegn")
 
 # %%
 # Ny rekkefølge 16 (Oppgave 30)
