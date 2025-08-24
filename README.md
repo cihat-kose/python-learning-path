@@ -11,7 +11,7 @@ This repository documents my weekly Python exercises as part of the **two-year B
 - Simple web programming with Flask later in the course
 
 ## Prerequisites
-- Python 3.11 or later
+- Python 3.12 or later
 - Recommended tools: a code editor (e.g., VS Code, PyCharm) and Git
 
 ## Getting Started
