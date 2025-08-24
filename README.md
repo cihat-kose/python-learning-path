@@ -1,4 +1,9 @@
-# Gokstad Akademiet Backend Programming – Python Learning Path
+# Python Learning Path – Gokstad Akademiet
+
+![Python](https://img.shields.io/badge/Python-3.12-blue?style=for-the-badge&logo=python&logoColor=white)
+![Platform](https://img.shields.io/badge/platform-Backend%20Programming-green?style=for-the-badge)
+![GitHub](https://img.shields.io/github/license/cihat-kose/python-learning-path?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/cihat-kose/python-learning-path?style=for-the-badge)
 
 This repository documents my weekly Python exercises as part of the **two-year Backend Programming program at Gokstad Akademiet**. The full curriculum covers topics such as object-oriented programming, databases, REST APIs, and web technologies, but this repo focuses exclusively on the Python fundamentals portion of the program and intentionally omits any SQL work.
 
