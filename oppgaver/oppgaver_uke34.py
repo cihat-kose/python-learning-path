@@ -156,8 +156,14 @@ else:
 # %%
 # Ny rekkefølge 16 (Oppgave 30)
 # Norsk: Be brukeren om en setning og skriv ut hvert ord i setningen på en ny linje.
-# Türkçe: Kullanıcıdan bir cümle iste ve her kelimeyi ayrı satıra yazdır.
 # Konsept: input(), print(), String, Splitting
+
+setning = input("Skriv en setning: ")
+
+ord_liste = setning.split()
+
+for ord in ord_liste:
+    print(ord)
 
 # %%
 # Ny rekkefølge 17 (Oppgave 33)
