@@ -22,7 +22,7 @@ This repository documents my weekly Python exercises as part of the **two-year B
 ## Getting Started
 1. Clone the repository and change into the directory
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/cihat-kose/python-learning-path.git
    cd python-learning-path
    ```
 2. Create and activate a virtual environment
@@ -31,7 +31,7 @@ This repository documents my weekly Python exercises as part of the **two-year B
    source .venv/bin/activate  # Windows: .venv\Scripts\activate
    ```
 3. Install any required packages (none at the moment)
-4. Run an exercise file with `python <file>`
+4. Run an exercise file with `python oppgavene/oppgaver_uke34.py`
 
 ## Folder Structure
 - `oppgaver_uke34.py` – exercises for week 34
