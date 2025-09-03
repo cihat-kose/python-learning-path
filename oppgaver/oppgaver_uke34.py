@@ -168,8 +168,13 @@ for ord in ord_liste:
 # %%
 # Ny rekkefølge 17 (Oppgave 33)
 # Norsk: Spør brukeren om en setning og skriv ut antall ord i setningen.
-# Türkçe: Kullanıcıdan bir cümle iste ve cümledeki kelime sayısını yazdır.
 # Konsept: input(), print(), String, Splitting
+
+setning = input("Skriv en setning: ")
+
+ord_liste = setning.split()
+
+print(f"Antall ord i setningen: {len(ord_liste)}")
 
 # %%
 # Ny rekkefølge 18 (Oppgave 31)
